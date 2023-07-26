@@ -25,10 +25,9 @@ public class Main {
         System.out.println(c);
         System.out.println(c2);
 
-         System.out.println(c + ", CentrePoint is: " +
-                                 c.getCentrePoint() + ", Area is: " + c.getArea());
-                 System.out.println(c2 + ", CentrePoint is: " +
-                                         c2.getCentrePoint() + ", Area is: " + c2.getArea());
+        c.move(10.5, 4.3);
+
+        System.out.println("Circle logation after: " +c.getCurrentLocation());
 
     }
 }
